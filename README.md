@@ -47,17 +47,17 @@ For example:
 
 🎯 Usage
 
-1.Enter a task in the input field.
-2.Click Add to save it to the list.
-3.Click on a task to mark it as completed.
-4.Use edit or delete buttons to modify your tasks.
+-1.Enter a task in the input field.
+-2.Click Add to save it to the list.
+-3.Click on a task to mark it as completed.
+-4.Use edit or delete buttons to modify your tasks.
 
 📌 Future Improvements
 
-. Dark / Light mode toggle 🌙☀️
-. Categories or tags for tasks 🏷️
-. Due dates & reminders ⏰
-. Sync with a database / backend 🔗
+-. Dark / Light mode toggle 🌙☀️
+-. Categories or tags for tasks 🏷️
+-. Due dates & reminders ⏰
+-. Sync with a database / backend 🔗
 
 🤝 Contributing
 Pull requests are welcome! If you’d like to improve this project, please fork the repo and submit a PR.

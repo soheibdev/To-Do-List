@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.my-container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding: 10px;
+
+}
+.todo-app{
+    margin: 100px auto  ;
+   padding: 40px 30px 70px ;
+   max-width: 540px;
+   background-color: white;
+   border-radius: 10px;
+   
+
+}
+.todo-app h2{
+    color:  #002765 ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+
+}
+.todo-app  img{
+    width: 35px;
+    margin-left:15px ;
+}
+.input-section{
+    display: flex;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+#task-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 18px 15px;
+    font-size: 15px;
+
+}
+#add-task-btn{
+    border: none;
+    outline: none;
+    background: #ff5945;
+    color: white;
+    padding: 13px 45px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+ ul li {
+    list-style: none;
+    padding: 12px 35px ;
+    position: relative;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+ }
+ ul li::before{
+     position: absolute;
+     content: '';
+     width: 25px;
+     height: 25px;
+     background-image: url("images/unchecked.png");
+     border-radius: 50%;
+     background-size: cover;
+     background-position: center;
+     top: 12px;
+     left: 0px;
+     cursor: pointer;
+    
+
+ }
+ ul li.checked{
+    text-decoration: line-through;
+    color: #555 ;
+ }
+ ul li.checked::before{
+    background-image: url("images/checked.png");
+ }
+ .task-item{
+     display: flex;
+        align-items: center;
+        justify-content: space-between; /* النص يسار و icons يمين */
+       padding: 12px 35px ;
+    
+ }
+ .icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 80px;
+
+ }
+ .close-icon , .update-icon {
+          max-width: 20px;
+          height: 10 px;
+          cursor: pointer;
+        }
+ .task-text{
+
+ }

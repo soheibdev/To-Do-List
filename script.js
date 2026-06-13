@@ -57,8 +57,6 @@ function rendertasks() {
     divelement.appendChild(imgupdat);
 
     lielement.appendChild(divelement);
-
-    // ✅ هذي تكفي للتأشير
     lielement.onclick = () => check(i);
 
     listbox.appendChild(lielement);
